@@ -1,0 +1,36 @@
+.blogsContainer {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 20px;
+}
+
+.pageTitle {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.blogCard {
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  
+}
+
+.blogCard h2 {
+  margin-bottom: 10px;
+}
+
+.blogCard p {
+  margin-bottom: 8px;
+}
+
+.readMore {
+  color: blue;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.readMore:hover {
+  color: darkblue;
+}

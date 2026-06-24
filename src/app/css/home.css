@@ -1,0 +1,106 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 15px 30px;
+
+  background-color: white;
+
+  border-bottom: 1px solid #ddd;
+}
+
+.logo {
+  color: #2563eb;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.navLinks {
+  display: flex;
+  gap: 20px;
+}
+
+.navLinks a {
+  color: black;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.navLinks a:hover {
+  color: blue;
+}
+
+.homeContainer {
+  min-height: calc(100vh - 70px);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #f4f6f9;
+}
+
+.heroBox {
+  padding: 50px;
+
+  text-align: center;
+
+}
+
+.title {
+  font-size: 48px;
+
+  color: #2563eb;
+
+  margin-bottom: 20px;
+}
+
+.description {
+  font-size: 18px;
+
+  color: #555;
+
+  line-height: 1.6;
+
+  margin-bottom: 35px;
+}
+
+.buttonGroup {
+  display: flex;
+
+  justify-content: center;
+
+  gap: 15px;
+}
+
+.primaryBtn,
+.secondaryBtn {
+  border: none;
+
+  padding: 12px 24px;
+
+  border-radius: 6px;
+
+  cursor: pointer;
+
+  color: white;
+
+  font-size: 16px;
+}
+
+.primaryBtn {
+  background-color: #2563eb;
+}
+
+.primaryBtn:hover {
+  background-color: #1d4ed8;
+}
+
+.secondaryBtn {
+  background-color: #10b981;
+}
+
+.secondaryBtn:hover {
+  background-color: #059669;
+}

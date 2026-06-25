@@ -35,7 +35,7 @@ if (error) {
 
 alert("Signup Successful");
 
-router.push("/blogs");
+router.push("/login");
 
 };
 
